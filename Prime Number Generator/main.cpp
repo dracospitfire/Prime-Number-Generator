@@ -1,10 +1,10 @@
-//
-//  main.cpp
-//  Prime-Number-Generator
-//
-//  Created by Austin Cooper on 3/19/14.
-//  Copyright (c) 2014 Austin Cooper. All rights reserved.
-//
+/*
+  main.cpp
+  Prime-Number-Generator
+
+  Created by Austin Cooper on 3/19/14.
+  Copyright (c) 2014 Austin Cooper. All rights reserved.
+*/
 
 #include <iostream>        //required for display output
 #include <string>          //required for string class
@@ -18,7 +18,6 @@ struct number
 {
     long double *factor;           //dynamically allocated array
 };
-
 
 int main()
 {
